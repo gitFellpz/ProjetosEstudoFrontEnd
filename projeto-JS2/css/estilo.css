@@ -1,0 +1,87 @@
+@import url(./reset.css);
+@import url(./variaveis.css);
+@import url(./all.css);
+
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limitador{
+    background-color: aqua;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cartao{
+    display: flex;
+    width: 580px;
+    background-color: white;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+img{
+    margin-left: -100px;
+}
+
+.titulo-principal{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.pergunta{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+.pergunta-3{
+    border: none;
+}
+
+.cabecalho{
+    display: flex;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.seta{
+    transition: 0.25s ease-out;
+}
+
+.cabecalho:hover .seta{
+    color: red;
+}
+
+.titulo-secundario{
+    margin-right: 35px;
+}
+
+.seta{
+    margin-left: auto;
+}
+
+.texto{
+    margin: 15px 0;
+    display: none;
+    width: 90%;
+    font-weight: 300;
+}
+
+.texto__selecionado{
+    display: block;
+}
+
+
+
